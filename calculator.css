@@ -1,0 +1,141 @@
+#heading{
+    position:absolute;
+    font-size:500%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 6%;
+    margin-left: 34%;
+    margin-bottom: 4px;
+    z-index: 1;
+}
+body{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgba(154,205,50,0.7); */
+    background-image: url("./background\ image.jpg");
+}
+#outsideborder{
+    position: absolute;
+    margin-left: 25%;
+    /* margin-top: 10%; */
+    top:25%;
+    width: 35%;
+    height:50%;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(153, 227, 250, 0.7);
+
+}
+#calculationdisplay{
+    /* padding-left: 2%; */
+    /* font-size: 100%; */
+    font-size: larger;
+    position: relative;
+    width:99.73%;
+    height:20%;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: black;
+
+}
+.flexdisplay{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    
+}
+.flexdisplay div{
+    
+background-color: #a4a9aa;
+/* position:relative; */
+box-shadow:5px 5px grey;
+
+  width: 23%;
+  height: 58px;
+  margin: 0.8%;
+  text-align: center;
+  line-height: 15px;
+  font-size: 20px;
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: black;
+}
+/* #equal{
+    height: 118px;
+    margin-bottom: 0px;
+    
+} */
+/* .flexdisplayfour{
+    display: flex;
+    flex-direction: row;
+} */
+/* .flexdisplayfour div{
+    position: relative;
+    background-color: #f1f1f1;
+  width: 23%;
+  height: 54px;
+  margin-left: 0.8%;
+  margin-right: 0.8%;
+  margin-bottom:0%;
+  margin-top: -11%;
+  text-align: center;
+  line-height: 5px;
+  font-size: 20px;
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: black;
+} */
+.flexdisplay :hover{
+    background-color: white;
+    cursor: pointer;
+}
+/* .flexdisplayfour :hover{
+    background-color: white;
+    cursor: pointer;
+} */
+/* .flexbox{
+    position: relative;;
+    width: 24%;
+    height: 18%;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: black;
+
+} */
+@media only screen and (max-width:1000px){
+    /* .flexdisplay div{
+        height:25px;
+    } */
+    #heading{
+        font-size: 300%;
+        top:10%;
+    }
+
+} 
+@media only screen and (max-width:500px){
+    /* .flexdisplay div{
+        height:25px;
+    } */
+    #heading{
+        font-size: 200%;
+        top:15%;
+    }
+
+} 
+@media only screen and (max-height:700px){
+    .flexdisplay div{
+        height:50px;
+    }
+}
+@media only screen and (max-height:400px){
+    .flexdisplay div{
+        height:30px;
+    }
+}
+
